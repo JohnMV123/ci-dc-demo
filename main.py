@@ -4,7 +4,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"msg": }
+    return {"msg": "This is the root for Hackcathon"}
 
 
 @app.get("/predict")
