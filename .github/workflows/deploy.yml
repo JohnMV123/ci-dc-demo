@@ -1,7 +1,11 @@
 # Se dispara al hacer push a main
+name: Deplo to ec2 
 on:
   push:  # Trigger the workflow on every push
     branches: [ main ]
+
+permissions:
+  contents: read
 
 jobs:
   deploy:
